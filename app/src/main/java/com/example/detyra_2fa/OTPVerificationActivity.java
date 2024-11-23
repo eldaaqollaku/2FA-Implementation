@@ -36,7 +36,7 @@ public class OTPVerificationActivity extends AppCompatActivity {
                 finish();
             } else {
 
-                Toast.makeText(this, "Incorrect code.Please try again.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Incorrect code.Please try again .", Toast.LENGTH_SHORT).show();
             }
         });
     }
