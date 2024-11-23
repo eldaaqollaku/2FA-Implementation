@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
             String generatedOTP = generateOTP();
 
 
-            EmailHelper emailSender = new EmailHelper(email, "Your OTP Code", "Your OTP is: " + generatedOTP);
+            EmailHelper emailSender = new EmailHelper(email, "Your OTP Code", "Your OTP Code is: " + generatedOTP);
             emailSender.send();
 
 

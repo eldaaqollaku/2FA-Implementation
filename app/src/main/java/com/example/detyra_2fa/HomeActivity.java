@@ -13,6 +13,6 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         TextView welcomeText = findViewById(R.id.welcome_text);
-        welcomeText.setText("Welcome!");
+        welcomeText.setText("Welcome!You are logged in");
     }
 }

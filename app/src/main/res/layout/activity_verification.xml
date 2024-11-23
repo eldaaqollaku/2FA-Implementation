@@ -9,6 +9,7 @@
 
     <!-- Tekst për udhëzime -->
     <TextView
+
         android:id="@+id/verification_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
